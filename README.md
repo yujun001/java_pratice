@@ -1,2 +1,2 @@
-thompson-sampling
+bandit rec
 =================
