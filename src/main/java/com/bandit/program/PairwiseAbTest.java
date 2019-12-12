@@ -1,7 +1,8 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import com.google.common.base.Optional;
 import com.google.common.collect.Lists;
+import com.bandit.program.BanditPerformance;
 
 import java.util.List;
 

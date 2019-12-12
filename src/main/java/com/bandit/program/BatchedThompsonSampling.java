@@ -1,4 +1,4 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import cern.jet.random.Beta;
 import cern.jet.random.engine.MersenneTwister;
@@ -7,6 +7,7 @@ import com.google.common.base.Function;
 import com.google.common.base.Optional;
 import com.google.common.collect.FluentIterable;
 import com.google.common.collect.Lists;
+import com.bandit.program.BanditPerformance;
 import org.apache.commons.math3.stat.descriptive.rank.Percentile;
 
 import java.util.Date;

@@ -1,16 +1,17 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import cern.jet.random.engine.MersenneTwister;
 import cern.jet.random.engine.RandomEngine;
 import com.google.common.base.Optional;
 import com.google.common.collect.Lists;
+import com.bandit.program.BanditPerformance;
 
 import java.util.Date;
 import java.util.List;
 
+import static cern.jet.stat.Probability.chiSquare;
 import static cern.jet.stat.Probability.normalInverse;
 import static java.lang.Math.round;
-import static cern.jet.stat.Probability.chiSquare;
 import static java.lang.Math.sqrt;
 
 public class BatchedABTest implements BatchedBandit {

@@ -1,4 +1,4 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import cern.jet.random.engine.MersenneTwister;
 import cern.jet.random.engine.RandomEngine;

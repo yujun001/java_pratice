@@ -1,11 +1,8 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import cern.jet.random.engine.RandomEngine;
-import com.google.common.base.Function;
 import com.google.common.base.Optional;
-import com.google.common.collect.FluentIterable;
 import com.google.common.collect.Lists;
-import com.google.common.collect.Ordering;
 
 import java.util.List;
 

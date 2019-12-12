@@ -1,4 +1,4 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 public class ObservedArmPerformance {
   public long getSuccesses() {

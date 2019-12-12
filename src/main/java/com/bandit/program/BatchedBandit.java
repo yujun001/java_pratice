@@ -1,6 +1,6 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
-import java.util.List;
+import com.bandit.program.BanditPerformance;
 
 public interface BatchedBandit {
 

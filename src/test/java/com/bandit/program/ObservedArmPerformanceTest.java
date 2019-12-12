@@ -1,4 +1,4 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import org.junit.Test;
 

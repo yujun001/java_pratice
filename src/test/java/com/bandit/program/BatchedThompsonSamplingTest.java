@@ -1,4 +1,4 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import cern.jet.random.engine.MersenneTwister;
 import cern.jet.random.engine.RandomEngine;
@@ -6,10 +6,9 @@ import com.google.common.collect.Lists;
 import org.junit.Ignore;
 import org.junit.Test;
 
-
-import static org.junit.Assert.*;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
+import static org.junit.Assert.*;
 
 public class BatchedThompsonSamplingTest {
   @Test

@@ -1,8 +1,6 @@
-package com.wealthfront.thompsonsampling;
+package com.bandit.program;
 
 import cern.jet.random.engine.RandomEngine;
-
-import java.util.Date;
 
 public class BernouliArm {
   private final double conversionRate;
