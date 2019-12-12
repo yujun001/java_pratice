@@ -1,8 +1,7 @@
-package com.bandit.program.ModeUtil.json.fastjson;
-
-import org.junit.Test;
+package com.bandit.program.ModelUtil.Json;
 
 import com.alibaba.fastjson.JSONObject;
+import org.junit.Test;
 
 /**
  * 对fastjson中的JSON转换做一个测试
@@ -20,7 +19,7 @@ public class jsonSetterTest {
         String jsonStr = JSONObject.toJSONString(product);
         System.out.println("转换为json:" + JSONObject.toJSONString(product));
 
-        jsonStr = jsonStr.toUpperCase();
+//        jsonStr = jsonStr.toUpperCase();
         System.out.println(jsonStr);
 
         product = JSONObject.toJavaObject(JSONObject.parseObject(jsonStr), jsonSetter.class);

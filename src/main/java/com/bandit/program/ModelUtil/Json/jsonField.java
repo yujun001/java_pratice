@@ -1,4 +1,4 @@
-package com.bandit.program.ModeUtil.json.fastjson;
+package com.bandit.program.ModelUtil.Json;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.annotation.JSONField;
